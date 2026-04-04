@@ -6,6 +6,9 @@ I'm a developer with a passion for building systems that sit at the intersection
 
 ## Featured Projects
 
+### [Horizon-10](https://github.com/ma8044/horizon-10)
+A real-time high-frequency trading (HFT) dashboard that predicts 10-second Bitcoin price movements using live Level 2 order book data. It streams Binance's BTCUSDT data at 100ms intervals, engineers 131 features on the fly, and runs inference through a calibrated LightGBM model. The system features a live TradingView candlestick chart, dynamic probability tracking, simulated paper trading with customizable confidence thresholds, and real-time performance analytics—all orchestrated via a FastAPI Python backend and a React/Vite frontend.
+
 ### [GreenCorridor](https://github.com/ma8044/green-corridor)
 A context-aware autonomous city logistics simulator built for the c0mpiled-2/UAE hackathon. Instead of reacting to traffic like traditional navigation, GreenCorridor uses a **Temporal Knowledge Graph** to predict congestion *before it happens* — factoring in school dismissal times, stadium events, and rush hour patterns. Built with React + TypeScript and rendered at 60fps on HTML5 Canvas, it simulates a full autonomous fleet with dynamic rerouting, traffic lights, and a live predictive heatmap overlay.
 
@@ -17,9 +20,6 @@ An ML research notebook investigating how input sequence length affects gradient
 
 ### [Ledger Tracker](https://github.com/ma8044/ledger-tracker)
 A full-stack financial ledger tracker built for a university course in JavaScript.
-
-### [Social Network](https://github.com/ma8044/social-network)
-A functional social networking web app built in Python for a web development course.
 
 ---
 
